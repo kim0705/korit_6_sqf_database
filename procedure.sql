@@ -8,3 +8,6 @@ select @total;
 set @number = 10;
 call usp_square(@number);
 select @number;
+
+select 
+	add_number(10, 20);
